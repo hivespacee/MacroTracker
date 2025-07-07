@@ -1,10 +1,7 @@
-# Macro Tracker Backend API
-
-A comprehensive backend API for tracking macronutrients, water intake, and weight management built with Node.js, Express, MongoDB, and JWT authentication.
+# Macro Tracker
 
 ## Features
 
-- **User Authentication**: JWT-based registration and login
 - **Profile Management**: Update user information and macro targets
 - **Food Database**: Searchable food database with nutritional information
 - **Food Logging**: Track food consumption with meal types and quantities
@@ -17,74 +14,29 @@ A comprehensive backend API for tracking macronutrients, water intake, and weigh
 
 ### Step 0: Seed database with initial food data
 ```bash
-npm run seed
+bun i
+bun run server.js
 ```
-
-<img src="./screenshots/seeding.png" width="400px"/>
-
-### 1. Register user
-<img src="./screenshots/register.png" width="600px"/>
 
 ### 2. Login user
-<img src="./screenshots/login-200.png" width="600px"/>
-<img src="./screenshots/login-401.png" width="600px"/>
+![Login](https://github.com/user-attachments/assets/db5874d2-11d3-4fed-8461-57ef78b6e224)
+
 
 ### 3. Get food items
-<img src="./screenshots/search-all.png" width="600px"/>
+![GetFoods](https://github.com/user-attachments/assets/434adb3c-8f9c-49df-98e6-229c9f796966)
+
 
 ### 4. Search for a particular food item
-<img src="./screenshots/search-one.png" width="600px"/>
+![SearchFood](https://github.com/user-attachments/assets/9c110994-55b0-4095-b9e9-00158e86baf8)
 
 ### 5. Set targets
-<img src="./screenshots/targets.png" width="600px"/>
-
-### 6. Log diary entries
-<img src="./screenshots/log-food.png" width="600px"/>
-
-#### similarly we can log weight and water intake
+![UserTargets](https://github.com/user-attachments/assets/545e2e22-608f-48fc-b906-f419b4814446)
 
 ### 7. See the logs
-<img src="./screenshots/get-logs.png" width="600px"/>
+![UserFoodLog](https://github.com/user-attachments/assets/be55a4a9-4bc8-4fde-a607-8db61b836e29)
 
 ### 8. Get the profile
-<img src="./screenshots/get-profile.png" width="600px"/>
+![UserProfile](https://github.com/user-attachments/assets/0f7f2d1e-2251-440c-aa1d-bf82e5d524fb)
 
 ### 9. Check dashboard
-<img src="./screenshots/dashboard.png" width="600px"/>
-
-## Project Structure
-
-```
-macro-tracker-backend/
-├── config/
-│   └── db.js                 # Database connection
-├── controllers/
-│   ├── authController.js     # Authentication logic
-│   ├── userController.js     # User profile management
-│   ├── foodController.js     # Food operations
-│   ├── waterController.js    # Water tracking
-│   ├── weightController.js   # Weight logging
-│   └── dashboardController.js # Dashboard aggregation
-├── middleware/
-│   └── auth.js              # JWT authentication middleware
-├── models/
-│   ├── User.js              # User schema
-│   ├── Food.js              # Food schema
-│   ├── FoodConsumption.js   # Food consumption schema
-│   ├── WaterConsumption.js  # Water consumption schema
-│   └── WeightLog.js         # Weight log schema
-├── routes/
-│   ├── auth.js              # Authentication routes
-│   ├── user.js              # User routes
-│   ├── food.js              # Food routes
-│   ├── water.js             # Water routes
-│   ├── weight.js            # Weight routes
-│   └── dashboard.js         # Dashboard routes
-├── scripts/
-│   └── seedFoods.js         # Database seeding script
-├── utils/
-│   └── generateToken.js     # JWT token generation
-├── .env                     # Environment variables
-├── server.js                # Main server file
-└── package.json             # Dependencies and scripts
-```
+![DashboardDate](https://github.com/user-attachments/assets/21199492-44dd-41d9-bdf5-b29394372ccd)

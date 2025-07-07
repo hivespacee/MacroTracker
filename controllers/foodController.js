@@ -1,5 +1,5 @@
 import Food from '../models/Food.js'
-import FoodConsumption from '../models/FoodConsumption.js'
+import FoodConsumption from '../models/FoodLog.js'
 
 export const searchFoods = async (req, res) => {
   try {

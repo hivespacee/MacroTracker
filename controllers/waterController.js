@@ -1,4 +1,4 @@
-import WaterConsumption from '../models/WaterConsumption.js'
+import WaterConsumption from '../models/WaterLog.js'
 
 export const logWaterConsumption = async (req, res) => {
   try {

@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const WaterConsumptionSchema = new mongoose.Schema({
+const WaterSchema = new mongoose.Schema({
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
@@ -20,4 +20,4 @@ const WaterConsumptionSchema = new mongoose.Schema({
   }
 }, { timestamps: true })
 
-export default mongoose.model('WaterConsumption', WaterConsumptionSchema)
+export default mongoose.model('WaterConsumption', WaterSchema)

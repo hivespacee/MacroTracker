@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-const FoodConsumptionSchema = new mongoose.Schema({
+const FoodSchema = new mongoose.Schema({
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
@@ -35,4 +35,4 @@ const FoodConsumptionSchema = new mongoose.Schema({
   }
 }, { timestamps: true })
 
-export default mongoose.model('FoodConsumption', FoodConsumptionSchema)
+export default mongoose.model('FoodConsumption', FoodSchema)

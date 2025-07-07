@@ -20,20 +20,20 @@ const UserSchema = new mongoose.Schema({
   },
   age: {
     type: Number,
-    required: [true, 'Please provide age']
+    // required: [true, 'Please provide age']
   },
   gender: {
     type: String,
     enum: ['male', 'female', 'other'],
-    required: [true, 'Please provide gender']
+    // required: [true, 'Please provide gender']
   },
   weight: {
     type: Number,
-    required: [true, 'Please provide weight']
+    // required: [true, 'Please provide weight']
   },
   height: {
     type: Number,
-    required: [true, 'Please provide height']
+    // required: [true, 'Please provide height']
   },
   targetCalories: {
     type: Number,

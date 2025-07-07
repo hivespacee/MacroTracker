@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
-import FoodConsumption from '../models/FoodConsumption.js'
-import WaterConsumption from '../models/WaterConsumption.js'
+import FoodConsumption from '../models/FoodLog.js'
+import WaterConsumption from '../models/WaterLog.js'
 import User from '../models/User.js'
 
 export const getDashboard = async (req, res) => {

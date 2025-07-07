@@ -20,39 +20,39 @@ A comprehensive backend API for tracking macronutrients, water intake, and weigh
 npm run seed
 ```
 
-<img src="./screenshots/seeding.png" width="550px"/>
+<img src="./screenshots/seeding.png" width="400px"/>
 
 ### 1. Register user
-<img src="./screenshots/register.png" width="550px"/>
+<img src="./screenshots/register.png" width="600px"/>
 
 ### 2. Login user
-<img src="./screenshots/login-200.png" width="550px"/>
-<img src="./screenshots/login-401.png" width="550px"/>
+<img src="./screenshots/login-200.png" width="600px"/>
+<img src="./screenshots/login-401.png" width="600px"/>
 
 ### 3. Get food items
-<img src="./screenshots/search-all.png" width="550px"/>
+<img src="./screenshots/search-all.png" width="600px"/>
 
 ### 4. Search for a particular food item
-<img src="./screenshots/search-one.png>
+<img src="./screenshots/search-one.png" width="600px"/>
 
 ### 5. Set targets
-<img src="./screenshots/targets.png" width="550px"/>
+<img src="./screenshots/targets.png" width="600px"/>
 
 ### 6. Log diary entries
-<img src="./screenshots/log-food.png" width="550px"/>
+<img src="./screenshots/log-food.png" width="600px"/>
 
 #### similarly we can log weight and water intake
 
 ### 7. See the logs
-<img src="./screenshots/get-logs.png" width="550px"/>
+<img src="./screenshots/get-logs.png" width="600px"/>
 
 ### 8. Get the profile
-<img src="./screenshots/get-profile.png" width="550px"/>
+<img src="./screenshots/get-profile.png" width="600px"/>
 
 ### 9. Check dashboard
-<img src="./screenshots/dashboard.png" width="550px"/>
+<img src="./screenshots/dashboard.png" width="600px"/>
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 macro-tracker-backend/
